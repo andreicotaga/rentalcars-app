@@ -1,0 +1,17 @@
+
+input[type="search"]
+{
+  border-radius: 0;
+  background: #FEFEFE;
+  border-color: #a9a9a9;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 0.813em;
+  height: 41px;
+
+  &:focus
+  {
+    outline: -webkit-focus-ring-color auto 5px;
+    box-shadow: none;
+  }
+}
